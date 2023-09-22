@@ -1,22 +1,14 @@
-# swyx-react-typescript-snippets
+# cjbt-nextjs-typescript-snippets
 
 ---
 
-This extension contains code snippets for React with Typescript (optionally, with Styled-Components). It is a fork of https://github.com/infeng/vscode-react-typescript made by swyx.
+This extension contains code snippets for NextJS with Typescript. It is a fork of https://github.com/swyxio/swyx-react-typescript-snippets which is another fork of https://github.com/infeng/vscode-react-typescript made by cjbt.
 
-It contains no class component APIs, assumes you use synthetic default imports, has hooks and subjectively better prop scaffolding.
+It contains no class component APIs, styled components, assumes you use synthetic default imports, has hooks and subjectively better prop scaffolding.
 
 It does a bit more based on the principle that it is easier to delete than to type, and so that we have just 3 easy to remember snippets: `rfc`, `rhc`, `rsc`.
 
-Because [the popular styled components snippets extension](https://github.com/lXSPandora/vscode-styled-components-snippets) only works for javascript 🙄, we also include an import snippet `imrsc`.
-
-## Install
-
-Search "swyx" in Extensions or hit https://marketplace.visualstudio.com/items?itemName=swyx.swyx-react-typescript-snippets
-
-## Demo
-
-![swyxsnippets](https://user-images.githubusercontent.com/6764957/51881079-e5ec4080-231d-11e9-81ae-ecaa3624c270.gif)
+They also come default exported
 
 ## Installation
 
@@ -25,7 +17,7 @@ There you have either the option to show the already installed snippets or insta
 
 Launch VS Code Quick Open (Ctrl + P or Cmd + P), paste the following command, and press enter.
 
-`ext install swyx-react-typescript-snippets`
+`ext install cjbt-nextjs-typescript-snippets`
 
 Alternatively you can open the extensions panel and search for 'swyx-react-typescript-snippets'.
 
@@ -42,8 +34,6 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | -------: | ---------------------------------------------- |
 |   `rfc→` | `create a react function component (no hooks)` |
 |   `rhc→` | `create a react hooks component`               |
-|   `rsc→` | `create a react styled component (no hooks)`   |
-| `imrsc→` | `import react and styled component`            |
 
 ```json
 {
