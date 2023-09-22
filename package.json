@@ -1,16 +1,16 @@
 {
-  "name": "swyx-react-typescript-snippets",
-  "version": "1.0.19",
-  "description": "Code snippets for modern react in typescript",
-  "displayName": "swyx-react-typescript-snippets",
-  "publisher": "swyx",
+  "name": "cjbt-nextjs-typescript-snippets",
+  "version": "1.0.0",
+  "description": "Code snippets for next app router in typescript",
+  "displayName": "cjbt-nextjs-typescript-snippets",
+  "publisher": "cjbt",
   "icon": "images/react.png",
   "galleryBanner": {
     "theme": "light"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sw-yx/swyx-react-typescript-snippets.git"
+    "url": "git+https://github.com/cjbt/cjbt-nextjs-typescript-snippets.git"
   },
   "engines": {
     "vscode": "0.10.x"
@@ -20,16 +20,17 @@
   ],
   "keywords": [
     "react",
+    "nextjs",
     "vscode",
     "typescript",
     "vscode-extension"
   ],
-  "author": "infeng",
+  "author": "cjbt",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sw-yx/swyx-react-typescript-snippets/issues"
+    "url": "https://github.com/cjbt/cjbt-nextjs-typescript-snippets/issues"
   },
-  "homepage": "https://github.com/sw-yx/swyx-react-typescript-snippets#readme",
+  "homepage": "https://github.com/cjbt/cjbt-nextjs-typescript-snippets#readme",
   "contributes": {
     "snippets": [
       {
